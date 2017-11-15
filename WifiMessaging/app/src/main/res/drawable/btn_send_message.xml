@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <layer-list>
+            <item android:drawable="@android:drawable/ic_menu_send"></item>
+            <item>
+                <shape>
+                    <solid android:color="#2e31e7ff" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <item>
+        <layer-list>
+            <item android:drawable="@android:drawable/ic_menu_send"></item>
+            <item>
+                <shape>
+                    <solid android:color="#00000000" />
+                </shape>
+            </item>
+
+        </layer-list>
+
+    </item>
+</selector>

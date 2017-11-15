@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="nf.co.mohatram.hidingdot">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <application
+        android:name=".DotApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+
+        <meta-data android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/fb_id"/>
+
+        <provider android:authorities="com.facebook.app.FacebookContentProvider304130076675449"
+            android:name="com.facebook.FacebookContentProvider"
+            android:exported="true"/>
+
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".LevelSelectorActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".GameActivity"
+            android:label="@string/title_activity_game"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+
+        <service
+            android:name=".MusicService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity
+            android:name=".SplashActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".tutorial.TutorialActivity"
+            android:screenOrientation="landscape" />
+        <service android:name=".FirebaseIDService"/>
+        <service android:name=".MyFirebaseMessagingService"/>
+    </application>
+
+</manifest>

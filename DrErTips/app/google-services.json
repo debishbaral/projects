@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "53610712888",
+    "firebase_url": "https://useful-tips-81a0d.firebaseio.com",
+    "project_id": "useful-tips-81a0d",
+    "storage_bucket": "useful-tips-81a0d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:53610712888:android:824eef790a47a039",
+        "android_client_info": {
+          "package_name": "nf.co.smsworks.usefultips"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "53610712888-0p1lcc1fvaga99jjkdhqc32kjassjn7e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATnsktYxb97pDGMdpJ7i7ei4aD6laWIY4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

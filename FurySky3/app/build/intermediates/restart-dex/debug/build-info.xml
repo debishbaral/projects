@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="armeabi-v7a,armeabi"
+    api-level="19"
+    density="hdpi"
+    format="8"
+    plugin-version="2.2.3"
+    timestamp="3754962718222"
+    token="2608002248936808456"
+    verifier="COMPATIBLE" >
+
+    <task
+        name="javac"
+        duration="505" />
+    <task
+        name="instant-run-dex"
+        duration="1673" />
+    <task
+        name="instant-run-transform"
+        duration="68" />
+    <task
+        name="verifier"
+        duration="4" />
+
+    <artifact
+        location="/home/madan/AndroidStudioProjects/FurySky3/app/build/intermediates/reload-dex/debug/classes.dex"
+        type="RELOAD_DEX" />
+
+    <build
+        timestamp="3690237084440"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="/home/madan/AndroidStudioProjects/FurySky3/app/build/outputs/apk/app-debug.apk"
+            type="MAIN" />
+    </build>
+    <build
+        timestamp="3754962718222"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/home/madan/AndroidStudioProjects/FurySky3/app/build/intermediates/reload-dex/debug/classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+
+</instant-run>

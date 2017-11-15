@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/beach_img"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.madan.wifimessaging.MainActivity"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    tools:showIn="@layout/activity_main"
+    >
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="#fff"
+            app:cardElevation="2dp"
+            android:layout_margin="0dp"
+            android:padding="2dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="@drawable/bottom_bar_style"
+                android:padding="2dp"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:id="@+id/message_type_et"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0dp"
+                    android:layout_weight="1"
+                    android:hint="Message here"
+                    android:textColorHint="#dadada"
+                    android:height="40dp"
+                    android:textColor="#000"
+                    android:paddingLeft="10dp"
+                    android:background="@drawable/edit_txt_bg"
+                    android:gravity="center_vertical"
+                    android:maxLines="1" />
+
+                <Button
+                    android:id="@+id/send_btn"
+                    android:layout_width="48dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:layout_margin="0dp"
+                    android:background="@drawable/btn_send_message"
+                    android:onClick="onSendMessage" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="56dp"
+        android:id="@+id/message_area_view">
+        <!--android:animateLayoutChanges="true"-->
+
+    </android.support.v7.widget.RecyclerView>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/fab_margin"
+        android:layout_marginBottom="@dimen/fab_margin_bottom"
+        android:layout_height="wrap_content">
+        <com.github.clans.fab.FloatingActionMenu
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/fab_menu"
+
+            app:menu_animationDelayPerItem="55"
+            app:menu_backgroundColor="@android:color/transparent"
+            app:menu_buttonSpacing="0.5dp"
+            app:menu_colorNormal="#ff5405"
+            app:menu_colorRipple="#99d4d4d4"
+            app:menu_fab_size="normal"
+            app:menu_icon="@android:drawable/ic_dialog_email"
+
+            app:menu_labels_colorNormal="#333"
+            app:menu_labels_colorPressed="#444"
+            app:menu_labels_colorRipple="#66efecec"
+            app:menu_labels_cornerRadius="3dp"
+            app:menu_labels_ellipsize="end"
+
+            app:menu_labels_hideAnimation="@anim/fab_slide_out_to_right"
+            app:menu_labels_margin="0dp"
+            app:menu_labels_maxLines="1"
+            app:menu_labels_padding="0dp"
+            app:menu_labels_position="left"
+            app:menu_labels_showAnimation="@anim/fab_slide_in_from_left"
+            app:menu_labels_showShadow="true"
+            app:menu_labels_singleLine="true"
+            app:menu_labels_textColor="#f2f1f1"
+            app:menu_labels_textSize="15sp"
+
+            app:menu_openDirection="up"
+            app:menu_shadowColor="#8b747474"
+            app:menu_shadowRadius="4dp"
+            app:menu_shadowXOffset="2dp"
+            app:menu_shadowYOffset="2dp"
+            app:menu_showShadow="true"
+            >
+            <com.github.clans.fab.FloatingActionButton
+                android:id="@+id/create_group_fab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:fab_size="mini"
+                android:onClick="onFabButtonClicked"
+                app:fab_label="Create group"
+                android:src="@drawable/fab_add"/>
+            <com.github.clans.fab.FloatingActionButton
+                android:id="@+id/join_group_fab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:fab_size="mini"
+                app:backgroundTint="#b32b01"
+                android:onClick="onFabButtonClicked"
+                app:fab_label="Join group"
+                android:src="@drawable/ic_join_group"/>
+            <com.github.clans.fab.FloatingActionButton
+                android:id="@+id/edit_info_fab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:fab_size="mini"
+                app:backgroundTint="#0066ff"
+                android:onClick="onFabButtonClicked"
+                app:fab_label="Edit info"
+                android:src="@android:drawable/ic_menu_edit"/>
+        </com.github.clans.fab.FloatingActionMenu>
+    </RelativeLayout>
+
+
+</RelativeLayout>

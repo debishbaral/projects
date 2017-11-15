@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Question goes here"
+        android:gravity="center_vertical"
+        android:textSize="16dp"
+        android:textColor="#000"
+        android:minHeight="48dp"
+        android:paddingLeft="16dp"
+        android:id="@+id/question_tv"
+        />
+    <TextView
+        android:id="@+id/correct_answer_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="correct: Correct answer"
+        android:paddingLeft="16dp"
+        android:gravity="center_vertical"
+        android:textColor="#8b8b8b"
+        android:drawableLeft="@drawable/ic_tick"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/given_answer_tv"
+        android:text="Given answer"
+        android:gravity="center_vertical"
+        android:paddingLeft="16dp"
+        android:textColor="#8b8b8b"
+        android:drawableLeft="@drawable/ic_cross"
+        />
+</LinearLayout>

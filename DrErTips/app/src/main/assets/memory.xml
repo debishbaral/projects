@@ -1,0 +1,82 @@
+<category name="MEMORY POWER"
+			image="images/brain.jpg"
+			desc="Increase your memory power">
+	<title desc="Improve Your Memory Power"
+			image="images/brain cell.jpg">
+		<image ref="images/brain cell.jpg"/>
+			<list>
+
+1. Make sure you sleep well during night 7-8 hours a day.
+
+2. 30 minute exercise or 10 min walk daily will lead the proper blood flow in the brain.
+
+3. Avoid multi-tasking, try to concentrate on the task at hand.
+
+4. Meditation.
+
+5. Stay mentally active, play the games like Puzzles, Chess, Sudoku.
+
+6. Too much stress, tension kills the brain cells, focus on jokes, love and funny things around you.
+
+7. Make sure to drink 8 glass of water daily to keep the brain cells hydrated.
+
+8. Fish, green leafy vegetables, mushrooms, peanuts, eggs, almonds, broccoli, kale,			   spinach, tomatoes, a glass of red wine/ day will help you to increase your memory power.
+
+9. Volunteer at a local school, community organization.
+
+10.Learn to play musical instrument.
+
+			</list>
+	</title>
+
+	<title desc="These Will Lead to Brain Damage"
+		image="images/brain damage.jpg">
+		 <image ref="images/brain damage.jpg"/>
+		<list>
+
+1. High sugar consumption.
+
+2. Long time no sleep.
+
+3. Air pollution i.e lack of oxygen.
+
+4. Smoking.
+
+5. Drinking too much alcohol.
+
+6. Overreacting.
+
+7. Skipping timely breakfast.
+
+8. Too much crowd, noisy area.
+
+		</list>
+	</title>
+	<title desc="Additional Tips"
+		image="images/other.jpg">
+		<list>
+Less meat, more vegetables
+
+Less soda, more water
+
+Less driving, more	walking
+
+Less worry, more sleep
+
+Less alcohol, more tea
+
+Less anger, more laughter
+
+Less words, more action
+
+Less talk, more listen
+
+Less read, more	learn
+
+Less enjoy, more work
+
+Less sad, more happy
+		
+		</list>
+	</title>
+</category>

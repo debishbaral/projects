@@ -1,0 +1,182 @@
+<category name="DRIVING LESSON" desc="Learn Driving" image="images/steering.jpg">
+
+    <title desc="Introduction to vehicle control" image="images/control.jpg">
+        <image ref="images/control.jpg" />
+        <list>
+a. Seat
+=> Adjust your seat backward and forward, up and down.
+
+b. Steering
+=> Move your car left/right side by steering.
+
+c. Mirrors
+=> Helps to see rear and side.
+
+d. Foot Pedals
+=> ABC,(Accelerator, Brake, Clutch).
+
+e. Brake
+=> To (stop , reduce the speed, control) the vehicle. Brake pedal is usually larger than
+acceleration pedal.
+
+f. Accelerator
+=> To race the vehicle by passing the more fuels. Accelerator pedal is smaller than
+other pedal.
+
+g. Clutch
+=> Used for changing gear and to stop the vehicle in slow speed.
+
+h. Gearbox
+=> It is power transmission unit, to increase and decrease the speed and force.
+
+i. Blinkers
+=> To flash orange light.
+
+j. Wipers
+=> To clean your front and back windshields.
+
+        </list>
+    </title>
+
+    <title desc="Tips for start to drive" image="images/start driving.jpg">
+        <image ref="images/start driving.jpg" />
+
+        <list>
+a. Put on your seat belt
+=> Driving without a seatbelt is illegal and it is for safety.
+
+b. Check parking brake
+=> Down the lever of hand or parking brake.
+
+c. Turn on the engine
+=> Put your keys in the ignition and turn clockwise.
+
+d. Shift the Gear
+=> By pressing clutch pedal and change the gear by gear lever.
+
+e. Now drive
+=> Accelerate your vehicle by acceleration pedal slowly.
+
+f. Congratulations
+=> You are driving a vehicle.
+
+g. Steer your vehicle
+=> Give desire direction with the help of steering wheel.
+
+h. Use of brake
+=> Stop or slowdown your vehicle by pressing the brake pedal.
+
+i. Use of lights
+=> Lights can help you see more clearly and avoid danger, you should use them when it's
+dark, raining, foggy.
+
+j. Use of wipers
+=> You can use wipers while raining, or to clean the windshields.
+
+k. Use of blinkers
+=> You can use blinker while turning, lane change and to give signals
+
+l. Use of mirrors
+=> Use mirror while turning, overtaking and lane change.
+        </list>
+    </title>
+    <title desc="Parking tips" image="images/parking.jpg">
+        <image ref="images/parking.jpg" />
+        <list>
+a. Find a good parking spot.
+
+b. Stop your vehicle by pressing foot brake.
+
+c. Shift Gear into neutral or park.
+
+d. Turn off your engine by turn the ignition key anticlockwise.
+
+e. Pull off your hand or parking brake.
+
+f. Turn off all lights.
+
+g. Lock your car for security.
+
+        </list>
+    </title>
+    <title desc="Warning while driving" image="images/warning lights.jpg">
+        <image ref="images/warning lights.jpg" />
+        <list>
+a. Don't forget to obey the speed limit.
+
+b. Don't fight to overtake.
+
+c. Don't sleep while driving.
+
+d. Never drink and drive.
+
+e. Don't forget to turn the indicator light on while turning.
+
+f. Don't forget to check your vehicle condition.
+
+g. Don't ignore vehicle signal.
+
+h. Always obey traffic rules.
+
+i. Don't use mobile phone.
+
+j. Don't talk with passenger.
+
+k. Never drive during sick.
+
+l. Always take necessary documents like licence, blue book.
+
+m. Obey lane rules.
+
+n. Don't drive long without taking rest.
+
+o. Check fuel level.
+
+        </list>
+    </title>
+    <title desc="Fuel saving tips" image="images/fuel.jpg">
+        <image ref="images/fuel.jpg"/>
+        <list>
+a. Check your tire pressure at least once a month.
+=> Low pressure tire consumes more fuel.
+=> High pressure makes your tire wear faster.
+
+b. Replace air filter, fuel filter, oil filter, spark plug, injectors, oxygen sensor regularly as per the manual.
+
+c. Driving in highest gear possible without laboring the engine
+=> 60 km/hr use 25% more fuel than in fifth gear than it would be in third gear.
+
+d. Try to drive smoothly, avoid heavy braking
+=> Influence the fuel economy by 30%.
+
+e. Old battery cables cause the alternator to work harder consuming more fuel.
+=> Clean or replace the corroded battery cables
+
+f. Start the engine, wait for 20 seconds and drive away.
+
+g. Don't let the vehicle idle for more than five minutes.
+
+h. More load consume more fuel therefore lighten the load.
+
+i. Remove roof rack, heavy seats unnecessary load if not needed.
+
+j. Always use manufacture's recommended grade of oil.
+
+k. Don't use contaminated, dust containing, impure and cheap oil and fuel.
+
+l. Thicker oil is harder to pump, so don't use thicker oils in the engin, gearbox.
+
+m. Avoid rough/ off roads whenever possible, off road driving consumes 30 % more fuel than normal roads.
+
+n. Inspect suspension, spring, ball joints, pedals, steering linkage, hub greasing, tire trades regularly.
+
+o. Avoid "revving " the engine especially just before the engine shuts off.
+
+        </list>
+    </title>
+</category>
+
+
+
+
+

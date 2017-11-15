@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/home/madan/AndroidStudioProjects/FurySky3/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="184545354f05adae232f3a4762e4b5a31f5e8955">
+        <dex dex="/home/madan/AndroidStudioProjects/FurySky3/app/build/intermediates/pre-dexed/debug/instant-run_fa4ec800cc712a5e9ebc01820184afc1cf8333df.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/madan/AndroidStudioProjects/FurySky3/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="ffee5543558b026b575d689935990c8996ddfcc7">
+        <dex dex="/home/madan/AndroidStudioProjects/FurySky3/app/build/intermediates/pre-dexed/debug/instant-run-bootstrap_733a889e945b505f7e4aef7c5b9d384d14cc4d85.jar" />
+    </item>
+
+</items>

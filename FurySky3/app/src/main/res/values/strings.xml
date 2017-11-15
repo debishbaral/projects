@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Save the queen</string>
+    <string name="game_menu">Game menu</string>
+    <string name="help">Help</string>
+    <string name="setting">Setting</string>
+</resources>

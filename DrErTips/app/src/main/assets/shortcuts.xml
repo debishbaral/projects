@@ -1,0 +1,53 @@
+<category name="SHORTCUTS "
+			image="images/shortcut.jpg"
+			desc="Some Useful Computer Shortcuts">
+	<title desc="Basic shortcuts"
+			image="images/shortcut.jpg">
+		<image ref="images/shortcut.jpg"/>
+			<list>
+1. CTRL+C --  Copy
+2. CTRL+v --  Paste
+3. CTRL+X --  Cut
+4. CTRL+Z --  Undo
+5. CTRL+A --  Select all
+5. DELETE --  Files to Recycle bin
+5. Shift +DELETE -- To delete the files and folder permanently
+ </list>
+</title>
+<title desc="Other Useful Shortcuts"
+			image="images/shortct.jpg">
+	<image ref="images/shortct.jpg"/>
+			<list>
+1. f2 --  Rename the selected item.
+
+2. f3 --  search for file or folder.
+
+3. ALT+Enter --  view the properties of selected items.
+
+4. ALT+f4 --  Close the active item.
+
+5. ALT+Space-bar --  Open shortcut menu of active tab.
+
+6. CTRL + ESC --  Display the start menu.
+
+7. ALT +  TAB --  Switch between the open items.
+
+8. Windows Key + D --  Display the desktop.
+
+9. Windows Key + E --  Open my computer.
+
+10.Windows Key + F --  Search for a file or a folder.
+
+11.Windows Key + R --  Open the Run dialog box.
+
+12.Windows Key + L --  Lock the keyboard.
+
+13.Windows Key + U --  Open Utility Manager.
+
+14.CTRL+SHIFT+N -- Create new folder.
+
+15.CTRL+SHIFT+ESC -- Task Manager.
+		</list>	
+	</title>	
+</category>	 
+ 

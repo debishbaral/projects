@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="nf.co.mohatram.hidingdot.MainActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:id="@+id/main_activity_pl">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/game_title"
+        android:id="@+id/imageView"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"/>
+
+
+    <nf.co.mohatram.hidingdot.ZoomingAnimationBtn
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:src="@drawable/play_button"
+        app:cb_color="@color/btnBackgroundPressed"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:id="@+id/play_button"
+        android:onClick="onPlayButtonClicked"/>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:gravity="bottom|center_horizontal"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="72dp"
+        android:layout_marginLeft="72dp">
+
+        <nf.co.mohatram.hidingdot.CircleButton
+            android:layout_width="@dimen/btn_width"
+            android:layout_height="@dimen/btn_height"
+            android:src="@drawable/about_us"
+            android:id="@+id/info_button"
+            app:cb_color="@color/btnBackgroundPressed"
+            android:layout_weight="1"
+            android:onClick="onClickedInfoButton"
+
+            />
+        <nf.co.mohatram.hidingdot.RotatingCircularButton
+            android:layout_width="@dimen/btn_width"
+            android:layout_height="@dimen/btn_height"
+            android:src="@drawable/rate_us"
+            app:cb_color="@color/btnBackgroundPressed"
+            android:id="@+id/rate_us_btn"
+            android:layout_weight="1"
+            android:onClick="onClickRateUsBtn"
+            />
+
+
+
+
+        <nf.co.mohatram.hidingdot.RotatingCircularButton
+            android:layout_width="@dimen/btn_width"
+            android:layout_height="@dimen/btn_height"
+            android:src="@drawable/tutorial"
+            app:cb_color="@color/btnBackgroundPressed"
+            android:id="@+id/tutorial_btn"
+            android:layout_weight="1"
+            android:onClick="onClickTutorialBtn"/>
+
+        <nf.co.mohatram.hidingdot.CircleButton
+            android:layout_width="@dimen/btn_width"
+            android:layout_height="@dimen/btn_height"
+            android:src="@drawable/music_on"
+            app:cb_color="@color/btnBackgroundPressed"
+            android:id="@+id/music_toggle"
+            android:layout_weight="1"
+            android:onClick="onClickMusicToggleBtn"
+             />
+        <nf.co.mohatram.hidingdot.CircleButton
+            android:layout_width="@dimen/btn_width"
+            android:layout_height="@dimen/btn_height"
+            android:src="@drawable/sound_btn_on"
+            app:cb_color="@color/btnBackgroundPressed"
+            android:id="@+id/sound_toggle"
+            android:layout_weight="1"
+            android:onClick="onClickSoundToggleBtn"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,71 @@
+<category name="FOODS"
+			image="images/vegetables.jpg"
+			desc="Healthy foods and their function">
+	<title desc="Healthy Foods"
+			image="images/high blood.jpg">
+		<image ref="images/vegetables.jpg"/>
+			<list>
+1. To boost and clean your whole system:
+	a. Apple
+	b. Ginger
+	c. Carrot
+
+2. For cold:
+	a. Warm liquids--Hot water+honey+lemon
+	b. Milk
+	c. Garlic
+	d. Honey
+	e. Oranges
+	f. Lemons
+	g. Grapefruit
+	h. Cauliflower
+	i. Parsley
+	j. Celery
+	k. Peppermint
+
+3.To clean kidney:
+    a.Watermelon
+    b.Apple
+    c.Pineapple
+
+4.To reduce body heat and texture and moisture:
+    a.Orange
+    b.Cucumber
+    c.Ginger
+
+5.To avoid your bad breath:
+    a.Milk
+    b.Bitter Gourd
+    c.Apple
+
+6.To increase cell activity and immunity:
+    a.Milk
+    b.Grapes
+    c.Honeydew
+    d.Watermelon
+
+7. To reduce head and stomach ache:
+    a.Cucumber
+    b.Celery
+    c.Apple
+
+8.To reduce cough:
+	a.Honey
+	b.Tulsi
+	c.Ginger tea
+	d.Graggle with salt water
+
+9. To improve skin complexion:
+	a. Cucumber
+	b. Kiwi
+	c. Apple
+
+10.To prevent cancer:
+	a. Baking soda
+	b. Lemon
+	c. Turmeric
+
+			</list>
+	</title>	
+</category>		
+

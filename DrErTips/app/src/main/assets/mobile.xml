@@ -1,0 +1,180 @@
+<category name="MOBILE"
+    desc="Common mobile problems"
+    image="images/mobile.png">
+    <title desc="Battery Quick Discharging"
+        image="images/low battery.jpg">
+        <image ref="images/low battery.jpg"/>
+        <list>
+1. Keep your phone at a 40 to 80% charge to maximize your battery life.
+
+2. Enter the setting menu
+=> Select the battery saving mode/power mode/battery saver.
+
+4. Avoid background apps, automatic downloads/update.
+
+5. Avoid live wallpapers and high quality background.
+
+6. Avoid auto-brightness.
+
+7. Don't allow the phone to overheat.
+
+8. Don't use your smart-phone while charging.
+
+9. Always charge your phone with original charger.
+
+10.Never let your phone overcharged, avoid whole night charging.
+
+11.To free up some internal space, store data in external SD card.
+
+12.Back up the rarely used apps and uninstall it.
+        </list>
+    </title>
+    <title desc="Phone Overheat" image="images/phone overheat.jpg">
+        <image ref="images/phone overheat.jpg"/>
+        <list>
+1. Make sure to keep your phone out of direct sunlight
+2. Keep the brightness down
+3. Close unused apps
+4. Uninstall the heavy apps
+        </list>
+    </title>
+    <title desc="Too Much Trash/Junk" image="images/trash.jpg">
+        <image ref="images/trash.jpg"/>
+        <list>
+1. Download and click the cleaner app
+2. Reduce number of tabs
+        </list>
+    </title>
+    <title desc="Mobile Network Problem" image="images/network_problem.jpg">
+        <image ref="images/network_problem.jpg"/>
+        <list>
+1. Change network mode to GSM only
+=> Goto setting, Wireless and network, mobile networks, select GSM only(2G only)
+
+2. Turn on the data roaming option
+=> Goto mobile networks, tap on Data Roaming option.
+
+3.Airplane mode
+=> Turn on airplane mode and turn off again after 10 seconds.
+
+4. Reinsert phone battery and SIM card.
+=> Switch off your smart-phone, remove battery and SIM card, reinsert the SIM and
+battery, wait 2 minute, switch on the smart-phone.
+
+5. Preferred Network
+=> Goto setting and select network operators to automatically.
+
+IF all of above methods won't work, try Back up and Reset option
+        </list>
+    </title>
+    <title desc="Repair Wet Phone"
+        image="images/wetphone.jpg">
+        <image ref="images/wetphone.jpg"/>
+        <list>
+1. Switch off your phone.
+
+2. Disassemble the battery and other parts using screwdriver.
+
+3. Disassemble the display too if there appears water on the display.
+
+4. Keep your phone to the direct sunlight or hot air blower to make the all wet parts
+dry.
+
+5. Clean your phone, assemble back and enjoy.
+        </list>
+    </title>
+
+    <title desc="Virus Protection"
+        image="images/antivirus.png">
+        <image ref="images/antivirus.png"/>
+        <list>
+1. Select "make visible to paired device" while turning on the bluetooth otherwise keep the bluetooth turned off.
+
+2. Don't open the not-trusted sites.
+
+3.Check any SD card, MMC card if they are infected, before inserting it to your phone.
+
+4. Don't read messages from the unknown sources.
+        </list>
+    </title>
+
+    <title desc="Slow Speed/Not Enough Space"
+        image="images/slow speed.jpg">
+        <image ref="images/slow speed.jpg"/>
+        <list>
+1. Close unneeded apps,media even widgets.
+
+2. Add memory/microSD.
+
+3. Delete unneeded files, apps, pictures, videos, pdf.
+
+4. Do not use second space in MI and other phones if not necessary- it will slow down the performance.
+        </list>
+    </title>
+
+    <title desc="Battery Not Recharging"
+        image="images/not charging.jpg">
+        <image ref="images/not charging.jpg"/>
+        <list>
+1. Turn off your phone.
+
+2. Remove battery.
+
+3. Wait 15 seconds.
+
+4. Insert the battery into mobile.
+
+5. Plug the charger in.
+
+6. Turn on the phone.
+        </list>
+    </title>
+
+    <title desc=" Phone Secret Diagnostic Codes"
+        image="images/codeic.png">
+        <image ref="images/codeic.png"/>
+        <list>
+1. iPhone : 3001#12345#*
+
+2. Samsung : *#0011#
+
+3. HTC : *#*#3423*#*#
+
+4. Sony : 904059+>
+
+5. Nokia : ##3282
+
+6. BlackBerry: TEST
+
+7. LG : 2945#*# or 2945*#01*#
+
+8. Motorola : ##7764726
+
+        </list>
+    </title>
+    <title desc=" Phone Locked/Forgotten Secret Code or Password/ Hanged"
+        image="images/lockedic.png">
+        <image ref="images/lockedic.png"/>
+        <list>
+1. Remove the SIM card
+
+2. Type the diagnostic codes for specific phones and call
+
+3. Above step will restore the original factory setting
+
+4. Will display some options on your phone
+
+5. Select the RESET option
+        </list>
+    </title>
+    <title desc="Precautions" image="images/precic.png">
+        <image ref="images/precic.png"/>
+        <list>
+1. Take back up of contact list
+
+2. Take back up of all data including photos, videos, documents
+
+3. If data is stored in phone memory and you reset the mobile phone all data will get lost
+        </list>
+    </title>
+</category>

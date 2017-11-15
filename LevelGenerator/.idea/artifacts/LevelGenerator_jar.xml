@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="LevelGenerator:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/LevelGenerator_jar</output-path>
+    <root id="archive" name="LevelGenerator.jar">
+      <element id="module-output" name="LevelGenerator" />
+      <element id="library" level="module" name="gdx-natives" module-name="LevelGenerator" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/jniLibs/gdx-backend-lwjgl-natives.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/jniLibs/gdx-natives.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/gdx.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/gdx-backend-lwjgl.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,131 @@
+<category name="COMMON DISEASES" desc="The solutions for common disease" image="images/disease.jpg">
+    <title desc="High Blood Pressure" image="images/high blood.jpg">
+        <image ref="images/high blood.jpg"/>
+        <list>
+1. Try to lose your weight -- more the weight more will be the blood pressure.
+
+2. Exercise 30 minutes a day.
+
+3. Having more fruits and vegetables will help you to reduce blood pressure.
+
+4. Reduce sodium in your diet:
+    a. Avoid processed food.
+    b. Don't add more salt on your meal.
+    c. Read the labels of food before taking it.
+
+4. Limit the alcohol you drink.
+
+5. Try this
+    250gms with horseradish grater, then pour the 2 liters of water and let it boil
+        a. Cool the mixture.
+        b. Drink it every day -100ml.
+        c. Take one week break.
+        d.Repeat again.
+        e.Regular checkup.
+
+        </list>
+    </title>
+    <title desc="low Blood Pressure" image="images/low blood.jpg">
+        <image ref="images/low blood.jpg"/>
+        <list>
+1. Eat a diet higher in salt.
+
+2. Limit alcoholic beverages.
+
+3. Drink more fluids during hot weather.
+
+4. Get your regular exercise.
+
+5. Avoid heavy lifting.
+
+6. Avoid straining while on the toilet.
+
+7. Avoid standing still in place for long periods of time.
+
+9. Avoid hot shower and avoid exposing yourself in summer.
+
+10.You can also use following medicine for low blood pressure
+    a. Fludrocortisone
+    b. Midodrine
+
+        </list>
+    </title>
+    <title desc="Fever" image="images/fever.jpg">
+        <image ref="images/fever.jpg"/>
+
+        <list>
+1. Try to cool the temperature of your body:
+    a. Soak the washed cloth in cool water.
+    b. Sponge the cloth into areas like armpits, feet, hands, groin.
+    c. Change the cloth regularly in every 5 mins and repeat.
+
+2. Garlic
+    Take garlic with warm water.
+
+3. Ginger
+    a. Make ginger tea.
+    b. Add some lemon.
+    c. Drink.
+
+4. Egg White
+    The white part of egg helps you to reduce the body temperature internally.
+
+5. Things to be remembered:
+    a. Drink lots of water and orange juice to prevent dehydration.
+    b. Don't use use very cold water or ice on the body.
+    c. Take complete bed rest for one or two days.
+    d. Consume plenty of green leafy vegetables.
+    e. Avoid eating refrigerated foods.
+    f. Avoid smoking as well as alcoholic drinks.
+
+        </list>
+    </title>
+    <title desc=" Diabetes/Sugar " image="images/diabetes.jpg">
+    <image ref="images/diabetes.jpg"/>
+        <list>
+1. Things to be remembered:
+    a. Keep monitoring your blood sugar levels.
+    b. Get plenty of fiber in your diet.
+    c. Expose yourself in sunlight - few minutes daily.
+    d. Follow the healthy eating plans.
+    e. Regular exercise.
+    f. Drink plenty of water throughout the day.
+    g. Try deep breathing, meditation, listen to your favorite music, work on your hobbies.
+
+2. Foods for curing diabetes
+    a. Bitter Gourd -on empty stomach
+    b. Cinnamon
+    c. Fenugreek
+    d. Mango leaves
+    e. Curry leaves
+    f. Aloe vera
+    g. Guava
+    h. Okra
+
+        </list>
+    </title>
+    <title desc=" Headache " image="images/headache.jpg">
+        <image ref="images/headache.jpg"/>
+        <list>
+1. Close your eyes and rest.
+
+2. Seat in a quite, dark room.
+
+3. Sleep frequently to eliminate the pain.
+
+4. Rubbing your neck and temples - to improve blood flow.
+
+5. Warm up your neck
+
+6. Relax - meditate, breath deeply.
+
+7. Drink the water with Tulsi and eat vegetables, fruits regularly.
+
+8. To minimize stress, avoid noisy environment.
+
+9. Take regular meals, breakfast.
+
+10.Try to visualize a peaceful image.
+        </list>
+    </title>
+</category>		

@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/home/madan/AndroidStudioProjects/FurySky3/app/build/intermediates/res/merged/debug/drawable-nodpi/ending.png",
+        "source": "/home/madan/AndroidStudioProjects/FurySky3/app/src/main/res/drawable-nodpi/ending.png"
+    },
+    {
+        "merged": "/home/madan/AndroidStudioProjects/FurySky3/app/build/intermediates/res/merged/debug/drawable-nodpi/splash.png",
+        "source": "/home/madan/AndroidStudioProjects/FurySky3/app/src/main/res/drawable-nodpi/splash.png"
+    },
+    {
+        "merged": "/home/madan/AndroidStudioProjects/FurySky3/app/build/intermediates/res/merged/debug/drawable-nodpi/background.png",
+        "source": "/home/madan/AndroidStudioProjects/FurySky3/app/src/main/res/drawable-nodpi/background.png"
+    },
+    {
+        "merged": "/home/madan/AndroidStudioProjects/FurySky3/app/build/intermediates/res/merged/debug/drawable-nodpi/game_menu.png",
+        "source": "/home/madan/AndroidStudioProjects/FurySky3/app/src/main/res/drawable-nodpi/game_menu.png"
+    },
+    {
+        "merged": "/home/madan/AndroidStudioProjects/FurySky3/app/build/intermediates/res/merged/debug/drawable-nodpi/missile.png",
+        "source": "/home/madan/AndroidStudioProjects/FurySky3/app/src/main/res/drawable-nodpi/missile.png"
+    },
+    {
+        "merged": "/home/madan/AndroidStudioProjects/FurySky3/app/build/intermediates/res/merged/debug/drawable-nodpi/helicopter.png",
+        "source": "/home/madan/AndroidStudioProjects/FurySky3/app/src/main/res/drawable-nodpi/helicopter.png"
+    }
+]

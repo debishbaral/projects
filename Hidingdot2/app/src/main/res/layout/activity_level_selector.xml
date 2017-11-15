@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rl_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:padding="0dp"
+    tools:context="nf.co.mohatram.hidingdot.LevelSelectorActivity"
+    android:fitsSystemWindows="false">
+
+    <LinearLayout
+        android:id="@+id/ll_information_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="@dimen/padding_level_selctor_rv">
+
+        <TextView
+            android:id="@+id/tv_no_of_hints_available"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/hints_available"
+            android:gravity="center_vertical"
+            android:text="23"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/information_text_sizes" />
+
+        <nf.co.mohatram.hidingdot.ShowLevelTextView
+            android:id="@+id/stv_current_level"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Level 1"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/information_text_sizes" />
+
+        <ImageView
+            android:id="@+id/iv_current_average_rating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/star0"/>
+    </LinearLayout>
+
+    <nf.co.mohatram.hidingdot.AutofitRecyclerView
+        android:id="@+id/rv_level_selector_grids"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/ll_information_container"
+        android:padding="@dimen/padding_level_selctor_rv"
+        android:columnWidth="@dimen/level_selector_dimension" />
+
+    <com.github.clans.fab.FloatingActionMenu
+        android:id="@+id/fam_share"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="10dp"
+
+        app:menu_colorNormal="@color/backgroundColor"
+        app:menu_colorPressed="@color/btnBackgroundPressed"
+        app:menu_icon="@drawable/share_btn"
+        app:menu_openDirection="up">
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/share_fb_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onclickFaceBookShareBtn"
+            android:src="@drawable/facebook"
+            app:fab_colorNormal="#00000000"
+            app:fab_colorPressed="#33282828"
+            app:fab_label="Share on Facebook \nGet more hints" />
+    </com.github.clans.fab.FloatingActionMenu>
+
+</RelativeLayout>

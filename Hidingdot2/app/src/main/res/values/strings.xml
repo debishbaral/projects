@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Hiding Dot</string>
+    <string name="title_activity_game">GameActivity</string>
+    <string name="full_screen_ads_release">ca-app-pub-9208407451048096/9244614969</string>
+    <string name="full_screen_ads_test">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="test_device">3429977F293870C2512D7C359F8FB4D1</string>
+    <string name="fb_id">304130076675449</string>
+    <string name="app_play_url">https://play.google.com/store/apps/details?id=nf.co.mohatram.hidingdot</string>
+
+    <string name="rta_dialog_title">Rate this app</string>
+    <string name="rta_dialog_message">Enjoying this game? Would you mind taking a moment to rate it? It won\'t take more than a minute. Thank you for your support!</string>
+    <string name="rta_dialog_ok">Rate now</string>
+    <string name="rta_dialog_cancel">Later</string>
+    <string name="rta_dialog_no">Already</string>
+</resources>

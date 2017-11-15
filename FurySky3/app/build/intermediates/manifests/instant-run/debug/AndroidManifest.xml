@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.click.studios.furysky"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <application
+        android:name="com.android.tools.fd.runtime.BootstrapApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <activity
+            android:name="com.click.studios.furysky.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.click.studios.furysky.GameMenu"
+            android:label="@string/game_menu"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.click.studios.furysky.GAME_MENU" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.click.studios.furysky.Help"
+            android:label="@string/help"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.click.studios.furysky.HELP" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.click.studios.furysky.Setting"
+            android:label="@string/setting"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.click.studios.furysky.SETTING" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.click.studios.furysky.game.GameActivity"
+            android:label="Game"
+            android:screenOrientation="landscape" >
+            <intent-filter>
+                <action android:name="com.click.studios.furysky.game.GAME_ACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.click.studios.furysky.game.Ending"
+            android:label="Ending"
+            android:screenOrientation="landscape" >
+            <intent-filter>
+                <action android:name="com.click.studios.furysky.game.ENDING" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.click.studios.furysky.game.GamePauseDialog"
+            android:label="Paused"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Dialog" >
+            <intent-filter>
+                <action android:name="com.click.studios.furysky.game.GAME_PAUSE_DIALOG" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

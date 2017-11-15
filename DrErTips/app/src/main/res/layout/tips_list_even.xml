@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:addStatesFromChildren="true">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:addStatesFromChildren="true"
+        android:background="@drawable/row_bg"
+        android:padding="@dimen/padding_row">
+        <ImageView
+            android:layout_centerVertical="true"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentLeft="true"
+            android:id="@+id/tips_image"
+            android:src="@mipmap/ic_launcher"
+            android:scaleType="fitCenter"
+            />
+        <TextView
+            android:textColor="#000"
+            android:text="Increase your memory power by 100 per"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:ellipsize="end"
+            android:id="@+id/tips_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:layout_toRightOf="@+id/tips_image"
+            android:layout_toEndOf="@+id/tips_image"
+            android:layout_marginLeft="@dimen/margin_frm_image"/>
+        <!--<View
+            android:id="@+id/line"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#000"
+            android:layout_below="@id/tips_title"
+            android:layout_toEndOf="@id/tips_image"
+            android:layout_toRightOf="@id/tips_image"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"
+            android:layout_marginRight="30dp"/>-->
+
+        <TextView
+            android:text="Here are some ways of boosting your memory powerHere are some ways of boosting your memory powerHere are some ways of boosting your memory powerHere are some ways of boosting your memory power"
+            android:ellipsize="end"
+            android:layout_below="@id/tips_title"
+            android:layout_toRightOf="@id/tips_image"
+            android:layout_toEndOf="@id/tips_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="2"
+            android:id="@+id/tips_desc"
+            android:layout_marginLeft="@dimen/margin_frm_image"
+            />
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

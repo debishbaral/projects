@@ -1,0 +1,261 @@
+ <category name="LAPTOP/PC"
+			image="images/laptop.png"
+			desc="Most Common Laptop/PC Solutions" >
+	<title desc="Computer Slows"
+			image="images/slow speed.jpg">
+		<image ref="images/slow speed.jpg"/>
+			<list>
+1. Make sure to delete your temporary files:
+	a. Search run and click on it or press "windows+R".
+	b. Type "%temp%" and delete all files. 
+	c. Type "temp" , press continue and delete all files.
+	d. Type "prefetch" on run and delete all files.
+
+2. Prevent unused programs from running automatically at the system startup:
+    a. Configure startup program from the advanced Task Manager. 
+    b. Right click menu on the taskbar- choose task manager.
+    c. Click on startup.
+    d. Disable all high memory and unnecessary  apps at the startup Eg:- skype, IDM, torrent.
+
+3. Ensure that your computer is not overheating:
+    The processor or graphics card clock speed will be throttled back to prevent damage caused by overheating, So
+    a.Components should be cooled with large heat sinks and working fans.
+    b.Installing a case fan can also help.
+
+4. Click on power option and choose high performance.
+
+5. Your computer's interior should be kept free of dust.
+
+6. Open your Anti-Virus software, ensure that it is upto-date, and run a full scan of your computer to get 	  rid of any possible malware infection which may be slowing your computer down
+
+7. Optimize your hard-disk performance by running disk defragmentor and disk clean-up:
+	a. Right clicking on your hard disk in "My computer".
+	b. Clicking "Properties". 
+	c. Click on "Clean UP".
+
+8. Press "windows+R" and type msconfig:
+	a. Jump to services.
+	b. Click on "Hide all microsofts" and press ok button.
+
+9.	Press "windows+R" and type "regedit":
+	a. Go to "HKEY_CURRENT_USER" select control panel then mouse .
+ 	b. Set "Mouse Hover Time " to 10.
+ 	c. Double click on desktop folder and click on "MenuShowDelay".
+	d. Set the value into 10.
+
+10. Search "system " in search box and click on advanced system setting:
+	a. Click on setting.
+	b. click on "Adjust for best performance".
+	c. Tick on "Show shadows under mouse pointer".
+	d. click on "apply" and "ok".
+
+11. Extent the RAM or replace old CPU.
+
+12. Kill background apps that is not necessary to speed up your pc and net.
+</list>
+	</title>
+	<title desc="Laptop won't turn on "
+			image="images/power.jpg">
+		<image ref="images/power.jpg"/>
+			<list> 
+
+1. If it is a laptop:
+    a. Disconnect the power adapter from the laptop.
+	b. Remove battery.
+	c. Wait 60 seconds.
+	d. Reinsert the battery. 
+	e. Reconnect the power the power adapter.
+	f. Try to turn the laptop on.
+
+2. Check to make sure that the power cable is plugged.
+
+3. Try using another power cable.
+
+4. Check and make sure that the power button isn't stuck.
+
+5. Try to turn on.
+
+ 	</list>
+	</title>
+	<title desc="Monitor/PC won't turn on or Shown No Pictures"
+		image="images/disorder.jpg">
+		 <image ref="images/disorder.jpg"/>
+		<list>
+
+1. Check the power indicator light/ make sure monitor is plugged in.
+
+2. If power indicator light on but you still have no picture,check and make sure that the video cable is 	connected to the CPU firmly.
+
+3. If the monitor power indicator light is green, but you still you can't see a picture, turn the computer 	  off by pressing and holding the power buttom until it turns off.
+
+4. Once it's turned off turn it right back on by pressing power button on the CPU.
+
+5. If you suddenly see a picture you may be having issue with the display settings in windows.
+
+6. Resolution may be set too high - check.
+
+7. Monitor refresh rate may be set improperly- check.
+
+8. Start the system in safe mode.
+
+9. Make any needed display setting changes.
+
+10.Start with the lowest resolution and refresh rate when you make the setting changes.
+
+11.If don't see picture after restart and power indicator on the monitor is green, either hold a lamp or flashlight right in front of the monitor.
+
+12.If you can see the picture in the background with the light on it then the monitor's black-lighting may be malfunctioning and the screen will needed to be replaced.
+
+ </list>
+	</title>
+	<title desc="Keyboard or Mouse quit working"
+		image="images/keyboard.jpg">
+		<image ref="images/keyboard.jpg"/>
+		<list>
+
+1. If the device have USB connections disconnect the keyboard or mouse and then reconnect them into different USB ports then they were connected before.
+
+2. If keyboard or mouse has ps/2 connection, unplug them and then plug them right back in.
+
+3. If that doesn't work restart the computer.
+
+4. You may have to press and hold the power button until the computer turns off if you haven't any access to a pointing device or a working keyboard.
+
+	</list>
+	</title>
+	<title desc="Sound doesn't work "
+		image="images/sound.jpg">
+		<image ref="images/sound.jpg"/>
+		<list>
+
+1. Check and make sure that the speakers are turned on and that they have power.
+
+2. Check and make sure that the speakers are plugged into the correct audio jack.
+
+3. It should be color coded and the  correct audio jack will most likely have green around it.
+
+4. Check and make sure that the volume is turned up and isn't muted within windows.
+
+5. Right click on volume icon in the system tray and click "payback devices".
+
+6. Ensure that the right sound device is selected as the default device.
+
+ </list>
+	</title>
+	<title desc="Windows Start Button Is Gone "
+		image="images/windows key.jpg">
+		<image ref="images/windows key.jpg"/>
+		<list>
+
+1. Hover your pointer around the area where the task bar was originally.
+
+2. If it is reappears, right click the task bar and un-select "Auto hide task bar".
+
+3. Press the "windows keys" to access the "start menu".
+
+4. If task bar has moved, drag and drop it from its current location back to where you want it to be.
+
+ </list>
+	</title>
+	<title desc="Desktop Icons Out of Order"
+		image="images/disorder.jpg">
+		<image ref="images/disorder.jpg"/>
+		<list>
+1. Right click on any open area on desktop.
+
+2. Select "View".
+
+3. Make any needed changes to the icon settings
+
+ </list>
+	</title>
+	<title desc="Accidentally Delete a File "
+		image="images/delete.jpg">
+		<image ref="images/delete.jpg"/>
+		<list>
+
+1. Check the "Recycle Bin" for missing file.
+
+2. If file is there, simply restore it.
+
+3. If location of the deleted file is unknown, cut it into desktop or drag and drop file into suitable folder
+
+4. If files are not in recycle bin use tools like Photorec, Recuva, Disk Drill, Glary Undelete, Pandora Recovery etc
+
+ </list>
+	</title>
+	<title desc="Web Browser Text, Too Large or Small"
+		image="images/front size.PNG">
+		<image ref="images/front size.PNG"/>
+		<list>
+
+1. While pressing "Ctrl" key, use the mouse wheel to either shrink or enlarge the web browser text.
+
+ </list>
+	</title>
+	<title desc=" I Can't Get Online"
+		image="images/online.jpg">
+		<image ref="images/online.jpg"/>
+		<list>
+
+1. Check that WIFI enabled on your computer/ laptop:
+	a. Laptop/Pc often have switch function key for WIFI, click on it. 
+	b. Check that the network icon on your computer is connected or if there is a yellow warning signal or 	  it is disabled.
+	c. If it is connected, call your network provider or get hold on someone with more knowlegde on IT.
+
+2. If WIFI is disabled:
+	a. Check whether the cable is connected properly or if WIFI is not on.
+	b. If there is a yellow warning, you must reboot the router.
+	c. If this doesn't work, try pressing start button.
+	d. Type "cmd" into the search box and click Enter.
+	e. Black box pops up where u can type "ipconfig/release" then "ipconfig/reneew".
+	f. If the internet is not working now, call your Internet Service Provider(ISP).
+
+ </list>
+	</title>
+	<title desc="Computer Turns off By Itself"
+		image="images/power.jpg">
+		<image ref="images/power.jpg"/>
+		<list>
+
+1. Check First of all that the cables are properly connected.
+
+2. If the computer is very hot, check if the fan needs cleaning of dust.
+
+3. If it is a laptop, whether your battery has deteriorated over time and may need to be replaced.
+
+ </list>
+	</title>
+	<title desc="Computer Makes Strange Noises"
+		image="images/noise.jpg">
+		<image ref="images/noise.jpg"/>
+		<list>
+
+1. Clean the filter and fan for dust and make sure that all air inlets are free.
+
+2. If you have a laptop, you can try to uninstall and reinstall your sound drivers.
+
+3. If it is a desktop, it may be that the sound card needs replacement.
+
+ </list>
+	</title>
+	<title desc="Cannot Print From The Web"
+		image="images/print.jpg">
+		<image ref="images/print.jpg"/>
+		<list>
+
+1. Allow temporary pop-ups.
+
+2. You can find legitimate programs that can break the code in a protected PDF document.
+
+3. NOTE: They are usually only legal to use if you or your workplace have the copyright to the document.
+
+</list>
+</title>
+</category>
+
+
+
+
+
+
